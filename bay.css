@@ -1,0 +1,70 @@
+header{
+    display: flex;
+}
+nav {
+    display: flex;
+    padding: 10px;
+}
+.navtext {
+    padding: 10px;
+}
+
+img {
+    max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+
+}
+img:hover{
+    opacity: .85;
+}
+#container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.list{
+    height:400px;
+    flex-grow:1;
+    padding: 5px;
+}
+.navtext{
+    font-family: "Courier New";
+    color: black;
+}
+.navtext:hover {
+    font-family: "Courier New";
+    color: black;
+    font-weight: bold;
+}
+a:link { 
+    color:black;
+    text-decoration: none; 
+}
+a:visited {
+    color:black; 
+    text-decoration: none; 
+}
+a:hover {
+    color:black; 
+    text-decoration: none; 
+}
+a:active {
+    color:black; 
+    text-decoration: none; 
+}
+
+#bay {
+    font-weight: bold;
+    font-family: "Courier New";
+    color: black;
+}
+h1:hover{
+    opacity: .5;
+}
+h1 {
+    margin-left: 10px;
+}
